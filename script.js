@@ -3,7 +3,7 @@ function addTask() {
   const taskText = taskInput.value.trim();
 
   if (taskText === "") {
-    alert("Введите задачу!");
+    alert("Enter a Task!");
     return;
   }
 
@@ -31,4 +31,5 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
 
   taskInput.value = "";
+
 }
